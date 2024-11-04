@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f9;
+    color: #030303;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+   
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #08000066;
+    
+    
+}
+.navbar h1 {
+    font-size: 30px;
+    color: #16185a;
+}
+.navbar a {
+    text-decoration: none;
+    color: #0e022e;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+.main-text {
+    max-width: 700px;
+    padding:5px;
+   
+}
+
+.main-text h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #030303;
+}
+.main-text p {
+    margin-top: 1rem;
+    font-size: 20px;
+    color: #131212;
+}
+.skills{
+    font-size:20px;
+    padding:10px;
+
+}
+.skills h2{
+    
+    font-size: 35px;
+}
+.contact-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #333;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+.contact-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+.social-icons {
+   margin: 0;
+   background-color: #08000066;
+   font-size: 20px ;
+   color: #00010a;
+   
+}
+.tags{
+    padding: 0 40px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-icons a {
+    color: #0e0c0c;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.hero-image {
+    width: 400px;
+    border-radius: 10px;
+}
+hr{
+    color: #3c40c6;
+}
